@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+p{
+     position: absolute;
+    border-radius: 50%;
+}
+form{
+    height: 400px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.191);
+    position: absolute;
+    top:150px;
+    left: 40%; 
+    border-radius: 30px;
+    padding: 30px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    border: none;
+}
+input{
+    display: block;
+    height: 20px;
+    width: 90%;
+    border-radius: 15px;
+    padding:10px;
+    margin-top: 8px;   
+}
+button{
+    margin-top: 50px;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #008cff;
+    color: #080710;
+    border-radius:20px; 
+}
+button:hover{
+    background-color: #4493a9;
+    cursor: pointer;
+    border-radius: 150px
+}
+ </style>
+</head>
+<body style="background-color: #000000">
+    <p>
+    <form>
+        <h3 style="font-size: 40px;">Login Here</h3>
+        <label for="username">Username</label>
+        <input type="text" placeholder="Email or Phone" id="username" required><br>
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password" required>
+        <button>Log In</button>      
+    </form>
+</p>
+</body>
+</html>
